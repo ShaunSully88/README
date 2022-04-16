@@ -5,6 +5,16 @@ const fs = require('fs');
 // TODO: Create an array of questions for user input
  inquirer
  .prompt ([
+     {
+         type:'input',
+         name: 'author',
+         message: 'What is the name of the Author of this file?'
+     },
+     {
+         type: 'input',
+         name: 'project',
+         message: 'What is the name of your project?'
+     },
     {
         type: 'input',
         name: 'description',
