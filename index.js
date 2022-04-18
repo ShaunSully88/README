@@ -3,12 +3,11 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 // TODO: Create an array of questions for user input
- inquirer
- .prompt ([
+const questions = [
      {
          type:'input',
          name: 'author',
-         message: 'What is the name of the Author of this file?'
+         message: 'What is the name of the Author of this project?'
      },
      {
          type: 'input',
@@ -39,17 +38,19 @@ const fs = require('fs');
         type: 'input',
         name: 'test',
         message: 'Can you provide details on how to properly test your project?'
+    },
+    {
+        type: 'list',
+        name:'license',
+        message: 'Please choose a license for your project.',
+        choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense']
     }
-])
-.then((answers) => {
-    fs.writeFile('answers.json', JSON.stringify(answers, null, 2), err => {
-        if(err) throw err;
-    })
-})
+];
+
 
 // TODO: Create a function to write README file
-function writeFile(name, message) {
-    fs.appendFile('README.md', `${process.argv[2]}\n`, err =>
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, err =>
     err ? console.error(err) : console.log('Commit logged!')
   );
 }
