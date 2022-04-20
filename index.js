@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = require('..utils/generateMarkdown');
+const generateMarkdown = require('../utils/generateMarkdown.js');
 
 // TODO: Create an array of questions for user input
 const questions = () => {
@@ -13,8 +13,8 @@ const questions = () => {
      },
      {
          type: 'input',
-         name: 'project',
-         message: 'What is the name of your project?'
+         name: 'title',
+         message: 'What is the title of your project?'
      },
     {
         type: 'input',
