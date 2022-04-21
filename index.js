@@ -1,21 +1,22 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = require('../utils/generateMarkdown.js');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 
 // TODO: Create an array of questions for user input
 const questions = () => {
     return inquirer.prompt([
-     {
-         type:'input',
-         name: 'author',
-         message: 'What is the name of the Author of this project?'
-     },
+     
      {
          type: 'input',
-         name: 'title',
+         name: 'name',
          message: 'What is the title of your project?'
      },
+     {
+        type:'input',
+        name: 'author',
+        message: 'What is the name of the Author of this project?'
+    },
     {
         type: 'input',
         name: 'description',
@@ -45,7 +46,7 @@ const questions = () => {
         type: 'list',
         name:'license',
         message: 'Please choose a license for your project.',
-        choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense']
+        choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0']
     }
 ])};
 
