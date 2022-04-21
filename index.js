@@ -9,7 +9,7 @@ const questions = () => {
      
      {
          type: 'input',
-         name: 'name',
+         name: 'projectName',
          message: 'What is the title of your project?'
      },
      {
