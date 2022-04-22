@@ -1,12 +1,9 @@
-# fdfds
-function renderLicenseBadge(license) {
-  if (license !== '') {
-    return ` ![license](https://img.shields.io/badge/license-${license}-blue.svg)`;
-  }
-  return '';
-  }
+# dfsgwsdf
+
+ ![license](https://img.shields.io/badge/license-GNUAGPLv3-blue.svg)
+
 ## Project Creator
-dsfdsfdsf
+ujjghjgu
 
 ## Table of Contents
 1. [Project Description](#description)
@@ -18,26 +15,26 @@ dsfdsfdsf
 7. [License Information](#license)
 
 ## Project Description
-dsfdsfds
+asdsrfsfs
 
 ## Installation Instructions
-dsfdsfds
+awefsgd
 
 ## Usage
-dsfdsfs
+asfrgawe
 
 ## How to Contribute
-dfdsfs
+dfsdsfsd
 
 ## How to Test the Project
-dsfdsfs
+dfdfhgf
 
 ## Questions
-Github Username: dsfdsfdsfds
+Github Username: hgkdsfad
 
-Github Profile: www.github.com/dsfdsfdsfds
+Github Profile: www.github.com/hgkdsfad
 
-Contact Email: dsfdsfds
+Contact Email: efeadasw
 
 ## License
  ![license](https://img.shields.io/badge/license-GNUAGPLv3-blue.svg)   <br>

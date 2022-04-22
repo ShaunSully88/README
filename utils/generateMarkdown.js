@@ -43,7 +43,9 @@ function renderLicenseSection(license) {}
 
 function generateMarkdown(data) {
 return `# ${data.projectName}
-${renderLicenseBadge}
+
+${renderLicenseBadge(data.license)}
+
 ## Project Creator
 ${data.author}
 
