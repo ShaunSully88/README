@@ -71,7 +71,8 @@ ${data.contribute}
 ${data.test}
 
 ## License
-${renderLicenseBadge(data.license)}
+${renderLicenseBadge(data.license)}   <br>
+
 ${renderLicenseLink(data.license)}
 
 `;
