@@ -1,24 +1,24 @@
-# dfsdfsd
+# Who killed Tupac?
 
 ## Project Creator
-fsdfdsfs
+West Side Killa
 
 
 
 ## Project Description
-afadfa
+Nitty gritty of who killed my boi.
 
 ## Installation Instructions
-asdasdasf
+Very safely. 
 
 ## Usage
-fdsfds
+Top secret info, need to know basis only.
 
 ## How to Contribute
-dsfdsfs
+Go find the killa.
 
 ## How to Test the Project
-dsfdsfds
+DNA
 
 ## License
 
