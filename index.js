@@ -15,7 +15,7 @@ const questions = () => {
      {
         type:'input',
         name: 'author',
-        message: 'What is the name of the Author of this project?'
+        message: 'Who created this project?'
     },
     {
         type: 'input',
@@ -30,7 +30,7 @@ const questions = () => {
     {
         type: 'input',
         name: 'usage',
-        message: 'Can you provde details on the usage information of your project?'
+        message: 'Can you provide details on the usage information of your project?'
     },
     {
         type: 'input',

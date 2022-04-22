@@ -49,6 +49,9 @@ ${data.author}
 
 ${renderLicenseBadge(data.license)}
 
+## Table of Contents
+1. [Project Description](#description)
+
 ## Project Description
 ${data.description}
 
