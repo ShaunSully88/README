@@ -12,25 +12,25 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
 
   if (license === 'GNUAGPLv3') {
-    return `![GNU Affero General Public License v3.0](https://choosealicense.com/licenses/agpl-3.0/)`;
+    return `![GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html)`;
   }
   if (license === 'GNUGPLv3') {
-    return `![GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/)`;
+    return `![GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)`;
   }
   if (license === 'GNULGPLv3') {
-    return `![GNU Lesser General Public License v3.0](https://choosealicense.com/licenses/lgpl-3.0/)`;
+    return `![GNU Lesser General Public License v3.0](https://www.gnu.org/licenses/lgpl-3.0.en.html)`;
   }
   if (license === 'MozillaPublicLicense2.0') {
-    return `![Mozilla Public License 2.0](https://choosealicense.com/licenses/mpl-2.0/)`;
+    return `![Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/)`;
   }
   if (license === 'ApacheLicense2.0') {
-    return `![Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/)`;
+    return `![Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)`;
   }
   if (license === 'MITLicense') {
-    return `![MIT License](https://choosealicense.com/licenses/mit/)`;
+    return `![MIT License](https://opensource.org/licenses/MIT)`;
   }
   if (license === 'BoostSoftwareLicense1.0') {
-    return `![Boost Software License 1.0](https://choosealicense.com/licenses/bsl-1.0/)`;
+    return `![Boost Software License 1.0](https://www.boost.org/LICENSE_1_0.txt)`;
   }
 
 }
