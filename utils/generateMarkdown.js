@@ -14,22 +14,22 @@ function renderLicenseLink(license) {
   if (license !== 'GNUAGPLv3') {
     return `![GNU Affero General Public License v3.0](https://choosealicense.com/licenses/agpl-3.0/)`;
   }
-  if (license === 'GNUGPLv3') {
+  if (license !== 'GNUGPLv3') {
     return `![GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/)`;
   }
-  if (license === 'GNULGPLv3') {
+  if (license !== 'GNULGPLv3') {
     return `![GNU Lesser General Public License v3.0](https://choosealicense.com/licenses/lgpl-3.0/)`;
   }
-  if (license === 'MozillaPublicLicense2.0') {
+  if (license !== 'MozillaPublicLicense2.0') {
     return `![Mozilla Public License 2.0](https://choosealicense.com/licenses/mpl-2.0/)`;
   }
-  if (license === 'ApacheLicense2.0') {
+  if (license !== 'ApacheLicense2.0') {
     return `![Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/)`;
   }
-  if (license === 'MITLicense') {
+  if (license !== 'MITLicense') {
     return `![MIT License](https://choosealicense.com/licenses/mit/)`;
   }
-  if (license === 'BoostSoftwareLicense1.0') {
+  if (license !== 'BoostSoftwareLicense1.0') {
     return `![Boost Software License 1.0](https://choosealicense.com/licenses/bsl-1.0/)`;
   }
 
@@ -51,6 +51,11 @@ ${renderLicenseBadge(data.license)}
 
 ## Table of Contents
 1. [Project Description](#description)
+2. [Installation Instructions](#install)
+3. [Usage](#usage)
+4. [How to Contribute](#contribute)
+5. [How to Test the Project](#test)
+6. [License Information](#license)
 
 ## Project Description
 ${data.description}
