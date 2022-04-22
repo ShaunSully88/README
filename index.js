@@ -62,6 +62,14 @@ questions()
   );
 });
 
+function writeToFile(filename, data) {
+    fs.writeFile(filename, data, (err) => {
+        if (err) {
+            return console.log(err);
+        }
+    })
+};
+
 // TODO: Create a function to initialize app
 function init() {}
 
