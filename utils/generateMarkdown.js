@@ -72,9 +72,11 @@ ${data.contribute}
 ${data.test}
 
 ## Questions
-[Github Username:] ${data.github}
-[Github Profile:] www.github.com/${data.github}
-[Contact Email:] ${data.email}
+Github Username: ${data.github}
+
+Github Profile: www.github.com/${data.github}
+
+Contact Email: ${data.email}
 
 ## License
 ${renderLicenseBadge(data.license)}   <br>
