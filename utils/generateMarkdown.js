@@ -47,8 +47,6 @@ return `# ${data.projectName}
 ## Project Creator
 ${data.author}
 
-${renderLicenseBadge(data.license)}
-
 ## Table of Contents
 1. [Project Description](#description)
 2. [Installation Instructions](#install)
@@ -74,6 +72,7 @@ ${data.test}
 
 ## License
 ${renderLicenseBadge(data.license)}
+${renderLicenseLink(data.license)}
 
 `;
 };

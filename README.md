@@ -1,9 +1,7 @@
-# dfhhgfhgf
+# dhddsf
 
 ## Project Creator
-sdgfsdfdfs
-
- ![license](https://img.shields.io/badge/license-MozillaPublicLicense2.0-blue.svg)
+wdedada
 
 ## Table of Contents
 1. [Project Description](#description)
@@ -14,20 +12,21 @@ sdgfsdfdfs
 6. [License Information](#license)
 
 ## Project Description
-dsfdsfsgdfh
+saddsfsf
 
 ## Installation Instructions
-sdgdhts
+sdfdsfds
 
 ## Usage
-sdfdsfdsfds
+weada
 
 ## How to Contribute
-sdgdgd
+asdasdas
 
 ## How to Test the Project
-fgfdgdfgd
+asdasfdsf
 
 ## License
- ![license](https://img.shields.io/badge/license-MozillaPublicLicense2.0-blue.svg)
+ ![license](https://img.shields.io/badge/license-ApacheLicense2.0-blue.svg)
+![GNU Affero General Public License v3.0](https://choosealicense.com/licenses/agpl-3.0/)
 
