@@ -12,7 +12,7 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
 
   if (license === 'GNUAGPLv3') {
-    return `![GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html)`;
+    return `(https://www.gnu.org/licenses/agpl-3.0.en.html)`;
   }
   if (license === 'GNUGPLv3') {
     return `![GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)`;
