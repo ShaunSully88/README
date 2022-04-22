@@ -11,25 +11,25 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
 
-  if (license === 'GNU_AGPLv3') {
+  if (license === 'GNUAGPLv3') {
     return `![GNU Affero General Public License v3.0](https://choosealicense.com/licenses/agpl-3.0/)`;
   }
-  if (license === 'GNU GPLv3') {
+  if (license === 'GNUGPLv3') {
     return `![GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/)`;
   }
-  if (license === 'GNU LGPLv3') {
+  if (license === 'GNULGPLv3') {
     return `![GNU Lesser General Public License v3.0](https://choosealicense.com/licenses/lgpl-3.0/)`;
   }
-  if (license === 'Mozilla Public License 2.0') {
+  if (license === 'MozillaPublicLicense2.0') {
     return `![Mozilla Public License 2.0](https://choosealicense.com/licenses/mpl-2.0/)`;
   }
-  if (license === 'Apache License 2.0') {
+  if (license === 'ApacheLicense2.0') {
     return `![Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/)`;
   }
-  if (license === 'MIT License') {
+  if (license === 'MITLicense') {
     return `![MIT License](https://choosealicense.com/licenses/mit/)`;
   }
-  if (license === 'Boost Software License 1.0') {
+  if (license === 'BoostSoftwareLicense1.0') {
     return `![Boost Software License 1.0](https://choosealicense.com/licenses/bsl-1.0/)`;
   }
 
