@@ -12,25 +12,25 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
 
   if (license === 'GNUAGPLv3') {
-    return `(https://www.gnu.org/licenses/agpl-3.0.en.html)`;
+    return ` License Website: https://www.gnu.org/licenses/agpl-3.0.en.html`;
   }
   if (license === 'GNUGPLv3') {
-    return `![GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)`;
+    return ` License Website: (https://www.gnu.org/licenses/gpl-3.0.en.html`;
   }
   if (license === 'GNULGPLv3') {
-    return `![GNU Lesser General Public License v3.0](https://www.gnu.org/licenses/lgpl-3.0.en.html)`;
+    return ` License Website: https://www.gnu.org/licenses/lgpl-3.0.en.html`;
   }
   if (license === 'MozillaPublicLicense2.0') {
-    return `![Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/)`;
+    return ` License Website: https://www.mozilla.org/en-US/MPL/2.0/`;
   }
   if (license === 'ApacheLicense2.0') {
-    return `![Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)`;
+    return ` License Website: https://www.apache.org/licenses/LICENSE-2.0`;
   }
   if (license === 'MITLicense') {
-    return `![MIT License](https://opensource.org/licenses/MIT)`;
+    return ` License Website: https://opensource.org/licenses/MIT`;
   }
   if (license === 'BoostSoftwareLicense1.0') {
-    return `![Boost Software License 1.0](https://www.boost.org/LICENSE_1_0.txt)`;
+    return ` License Website: https://www.boost.org/LICENSE_1_0.txt`;
   }
 
 }

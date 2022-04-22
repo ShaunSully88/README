@@ -1,7 +1,7 @@
-# dsdfdsf
+# uujuy
 
 ## Project Creator
-dfsdfds
+jjgjhg
 
 ## Table of Contents
 1. [Project Description](#description)
@@ -12,21 +12,21 @@ dfsdfds
 6. [License Information](#license)
 
 ## Project Description
-sdfsdfsd
+ghjtyjfjg
 
 ## Installation Instructions
-sdfsdfds
+fghgfhgf
 
 ## Usage
-dsfsdfsd
+jyutjtu
 
 ## How to Contribute
-dsfdsfs
+jghjg
 
 ## How to Test the Project
-dfsfs
+ytjhjg
 
 ## License
- ![license](https://img.shields.io/badge/license-GNUAGPLv3-blue.svg)
-(https://www.gnu.org/licenses/agpl-3.0.en.html)
+ ![license](https://img.shields.io/badge/license-GNULGPLv3-blue.svg)
+ License Website: https://www.gnu.org/licenses/lgpl-3.0.en.html
 
